@@ -29,7 +29,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
 #if DEBUG
     lynxView.loadTemplate(
-      fromURL: "http://172.20.10.4:3000/main.lynx.bundle?fullscreen=true",
+      fromURL: "http://localhost:3000/main.lynx.bundle?fullscreen=true",
       initData: nil
     )
 #else
