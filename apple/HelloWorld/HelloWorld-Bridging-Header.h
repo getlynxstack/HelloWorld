@@ -3,3 +3,4 @@
 #import <Lynx/LynxTemplateProvider.h>
 #import <Lynx/LynxView.h>
 #import <Lynx/LynxDebugger.h>
+#import <Lynx/LynxModule.h>

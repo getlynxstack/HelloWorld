@@ -9,7 +9,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     window = UIWindow(windowScene: windowScene)
     
     let lynxView = LynxView { builder in
-      builder.config = LynxConfig(provider: TemplateProvider())
 #if DEBUG
       builder.enableGenericResourceFetcher = .true
       builder.genericResourceFetcher = GenericResourceFetcher()
